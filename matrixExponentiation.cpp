@@ -7,6 +7,7 @@ step 3: Find Transformation Matrix T of size k x k such that T * F(i) = F(i+1)
 		|0	0	1	0	0	0|					 
 		|0	0	0	1	0	0|	
 	T=	|0	0	0	0	1	0|
+		|0	0	0	0	0	1|
 		|.  	.	.	.	.	.|         		 
 		|ck 	.	.	. 	c2     c1|		     
 	we know that F(n) = T^(n-1)*F(1), so to compute F(n) find power of T
