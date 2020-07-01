@@ -1,3 +1,10 @@
+/*
+f(n) = c1*f(n-1) + c2*f(n-2) + ... ck*f(n-k)
+step 1: Find k(no of values f(n) depends upon)
+step 2: Find first k terms and store it in a vector F1
+step 3: Find Transformation Matrix T of size k x k such that T * F(i) = F(i+1)
+	we know that F(n) = T^(n-1)*F(1), so to compute F(n) find power of T
+*/
 #include<bits/stdc++.h>
 using namespace std;
 
